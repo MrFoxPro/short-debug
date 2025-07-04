@@ -1,0 +1,15 @@
+[package]
+name = "short-debug"
+version = "0.6.3"
+edition = "2024"
+
+[lib]
+name = "short_debug"
+path = "lib.rs"
+proc-macro = true
+
+[dependencies]
+synstructure = "0.13"
+proc-macro2 = "1.0"
+syn = "2.0"
+quote = "1.0"
