@@ -7,8 +7,8 @@ description = '''
 Provides Debug derive that do same thing like std::fmt::Debug, but skips Option::None and Vec::is_empty fields
 and prints inner values of without Some(..) wrappers
 '''
-homepage = "github.com/mrfoxpro/short-debug"
-repository = "github.com/mrfoxpro/short-debug"
+homepage = "https://github.com/mrfoxpro/short-debug"
+repository = "https://github.com/mrfoxpro/short-debug"
 
 [lib]
 name = "short_debug"
